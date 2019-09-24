@@ -13,8 +13,8 @@ class Register extends React.Component {
 
   render() {
     return (
+    <div style={{width:'800px', margin:'0 auto'}}>
        <Form>
-
          <Form.Group as={Row} controlId="formMail">
            <Form.Label column sm={2}>
              Email
@@ -65,14 +65,13 @@ class Register extends React.Component {
                  <option>...</option>
                </Form.Control>
              </Form.Group>
-
    <Form.Group as={Row}>
            <Col sm={{ span: 10, offset: 2 }}>
              <Button type="submit">Sign in</Button>
            </Col>
          </Form.Group>
-
        </Form>
+       </div>
     );
   }
 }
